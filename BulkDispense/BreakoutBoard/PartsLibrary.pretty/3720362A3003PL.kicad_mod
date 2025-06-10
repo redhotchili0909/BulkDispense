@@ -6,13 +6,13 @@
 	(descr "37203-62A3-003PL-1")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at 0.85 0.375 0)
+		(at -2.5 2 0)
 		(layer "F.SilkS")
 		(uuid "049fb78c-cd48-4f55-b113-fe2267e132ed")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.125)
 			)
 		)
 	)
