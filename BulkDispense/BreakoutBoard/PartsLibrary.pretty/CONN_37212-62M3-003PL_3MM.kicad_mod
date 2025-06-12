@@ -315,7 +315,7 @@
 		(uuid "536b58f7-078c-44b6-aa0a-8d94fe44fc5d")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/PartsLibrary.pretty/3d/37212-62M3-003 PL_STEP.stp"
+	(model "C:/Users/cpark/OneDrive - Moderna/ModernaProjects/BulkDispense/BreakoutBoard/PartsLibrary.pretty/3d/37212-62M3-003 PL_STEP.stp"
 		(offset
 			(xyz 16.3 -10 1)
 		)
