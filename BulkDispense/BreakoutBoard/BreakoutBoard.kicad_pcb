@@ -8074,8 +8074,8 @@
 				)
 			)
 		)
-		(property "Value" "Flow Sensors"
-			(at 1.716598 -5.103901 0)
+		(property "Value" "Flow Sensors (PORT2)\n"
+			(at 4.806348 -5.103901 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "25bca42d-e7bf-41cc-9490-6d8da0ff7a0e")
@@ -10519,7 +10519,7 @@
 		(layer "Edge.Cuts")
 		(uuid "2e2ea65d-5bcc-4ec1-a89a-7c3fad777f39")
 	)
-	(gr_text "Digital OUT"
+	(gr_text "Digital OUT (PORT1)"
 		(at 149.41025 106 0)
 		(layer "F.SilkS")
 		(uuid "12bdfd5e-9f05-44e8-a25c-d7d435914e35")
@@ -10531,7 +10531,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "R0~R4"
+	(gr_text "R0~R4 (PORT3)"
 		(at 149.41025 50.25 0)
 		(layer "F.SilkS")
 		(uuid "21e3ffe8-81db-4aee-ba3a-faf51c5d9ae4")
@@ -10639,7 +10639,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Analog IN"
+	(gr_text "Analog IN (PORT4)"
 		(at 149.66025 87.25 0)
 		(layer "F.SilkS")
 		(uuid "dff73294-8cd3-41a7-92a3-03ff482a9aca")
@@ -10651,7 +10651,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "R4~R9"
+	(gr_text "R4~R9 (PORT5)"
 		(at 149.41025 68.75 0)
 		(layer "F.SilkS")
 		(uuid "e4a968eb-e7f6-4625-9695-2dad55f6069d")
