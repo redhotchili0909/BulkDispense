@@ -1496,7 +1496,7 @@
 	)
 	(rectangle
 		(start 21.59 57.15)
-		(end 106.68 157.48)
+		(end 106.68 180.34)
 		(stroke
 			(width 0)
 			(type default)
@@ -1505,6 +1505,18 @@
 			(type none)
 		)
 		(uuid d00f660f-fe20-4290-8786-86431a23c44a)
+	)
+	(rectangle
+		(start 24.13 154.94)
+		(end 63.5 176.53)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e1a679a0-c260-4928-b7b8-26d92ea94b30)
 	)
 	(rectangle
 		(start 220.98 38.1)
@@ -1672,6 +1684,26 @@
 			)
 		)
 		(uuid "fb613bc2-f2c4-418d-964c-df7a22bbce4b")
+	)
+	(text_box "Leak Detection"
+		(exclude_from_sim no)
+		(at 44.45 167.64 0)
+		(size 16.51 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2cb520dc-3edc-48db-a386-2319566103c5")
 	)
 	(text_box "Waste Bottle\n2/2 Media Valves"
 		(exclude_from_sim no)
@@ -1904,16 +1936,8 @@
 		(uuid "ea2f20c6-09a6-4ddd-93c1-69384ea78592")
 	)
 	(no_connect
-		(at 190.5 125.73)
-		(uuid "5932ba3e-9a4f-4780-a17b-108011db2a60")
-	)
-	(no_connect
-		(at 190.5 115.57)
-		(uuid "799a7e5b-55c0-4bdc-9815-184ec6de91c5")
-	)
-	(no_connect
-		(at 190.5 120.65)
-		(uuid "c44780af-c295-47ff-84bd-8c23fe72fc4a")
+		(at 36.83 168.91)
+		(uuid "9aa0f4de-953c-4a74-bae9-531a01fc30f7")
 	)
 	(no_connect
 		(at 234.95 58.42)
@@ -2451,6 +2475,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 161.29) (xy 38.1 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a41887a-eb4e-49b4-92c4-a63e33bcdb54")
+	)
+	(wire
+		(pts
 			(xy 160.02 64.77) (xy 162.56 64.77)
 		)
 		(stroke
@@ -2771,6 +2805,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 163.83) (xy 38.1 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7c5f7b-6f16-4527-811c-6150e0efc8ab")
+	)
+	(wire
+		(pts
 			(xy 219.71 125.73) (xy 220.98 125.73)
 		)
 		(stroke
@@ -2911,6 +2955,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 166.37) (xy 38.1 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1af1e8b-a5c7-45c3-98bb-9d13d2cb24ba")
+	)
+	(wire
+		(pts
 			(xy 142.24 118.11) (xy 143.51 118.11)
 		)
 		(stroke
@@ -2978,6 +3032,16 @@
 			(type default)
 		)
 		(uuid "e0a0d110-7580-451c-9a5a-eea212277c6d")
+	)
+	(wire
+		(pts
+			(xy 36.83 168.91) (xy 38.1 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b1958c-416a-43ca-92ff-c8f9463777d3")
 	)
 	(wire
 		(pts
@@ -3195,17 +3259,6 @@
 		)
 		(uuid "06440fdd-b2f3-4144-8b04-a2caa150a9de")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 190.5 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "081da467-2aa3-4d34-8295-476cbf713cc7")
-	)
 	(hierarchical_label "R4_IN"
 		(shape input)
 		(at 142.24 110.49 180)
@@ -3216,6 +3269,17 @@
 			(justify right)
 		)
 		(uuid "08c0ee06-e5ff-43a0-a3e2-9762d367316e")
+	)
+	(hierarchical_label "LDS-GND"
+		(shape input)
+		(at 190.5 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c5a3b34-8377-4663-ba51-10cb9bccd44d")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -3327,6 +3391,17 @@
 		)
 		(uuid "2a26f707-a3d6-4b58-9786-f6f84000820c")
 	)
+	(hierarchical_label "LDS"
+		(shape input)
+		(at 36.83 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b4822cf-2626-4255-a991-914afddbfc5e")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 38.1 104.14 180)
@@ -3392,6 +3467,17 @@
 			(justify right)
 		)
 		(uuid "3e244702-963d-4419-9182-a5dedd63f951")
+	)
+	(hierarchical_label "AO0"
+		(shape input)
+		(at 190.5 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4362971b-64f8-42b8-a459-3d0396106f5d")
 	)
 	(hierarchical_label "R0_IN"
 		(shape input)
@@ -3492,6 +3578,17 @@
 		)
 		(uuid "580b33ff-8ab3-4215-b564-e9c68c9e42a1")
 	)
+	(hierarchical_label "LDS"
+		(shape input)
+		(at 190.5 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58979452-dc7d-49d1-bbfb-dfd162bffd79")
+	)
 	(hierarchical_label "R2_IN"
 		(shape input)
 		(at 142.24 105.41 180)
@@ -3514,16 +3611,16 @@
 		)
 		(uuid "61d04b9f-217d-48b4-8842-7208f2a1957f")
 	)
-	(hierarchical_label "AO0"
+	(hierarchical_label "GND"
 		(shape input)
-		(at 190.5 118.11 180)
+		(at 190.5 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "64e6e63b-b5c0-42b8-9b9f-8e1555561576")
+		(uuid "6683050d-0000-4e02-bd0f-eed89cbc3adf")
 	)
 	(hierarchical_label "R5_OUT"
 		(shape input)
@@ -3844,17 +3941,6 @@
 		)
 		(uuid "a39e4f14-8f82-4618-be9e-655de89f9e65")
 	)
-	(hierarchical_label "24V"
-		(shape input)
-		(at 190.5 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a48ecb6d-e690-4cda-8f62-72356e68f8ac")
-	)
 	(hierarchical_label "DO3"
 		(shape input)
 		(at 162.56 107.95 180)
@@ -3876,6 +3962,17 @@
 			(justify right)
 		)
 		(uuid "a6bb8d07-5cb2-4eb9-850a-0415427b0b12")
+	)
+	(hierarchical_label "24V"
+		(shape input)
+		(at 190.5 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9ff4aba-73c5-4241-993c-9551be91adcc")
 	)
 	(hierarchical_label "AI4"
 		(shape input)
@@ -4130,6 +4227,17 @@
 		)
 		(uuid "e06bc6a7-1431-4cac-9fa9-8fe30f719573")
 	)
+	(hierarchical_label "LDS-5V"
+		(shape input)
+		(at 190.5 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e10c16d2-c032-4d74-b5e7-b771d10dfb4f")
+	)
 	(hierarchical_label "R3_IN"
 		(shape input)
 		(at 142.24 107.95 180)
@@ -4162,6 +4270,17 @@
 			(justify right)
 		)
 		(uuid "e329752a-e984-4646-b1e8-fb7ced449b85")
+	)
+	(hierarchical_label "LDS-GND"
+		(shape input)
+		(at 36.83 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e43f87c2-d1d3-4d98-96a0-333d21e73748")
 	)
 	(hierarchical_label "DO5"
 		(shape input)
@@ -4339,6 +4458,17 @@
 		)
 		(uuid "fbcb1ea0-a1a8-4811-aba6-61fcace05ead")
 	)
+	(hierarchical_label "LDS-5V"
+		(shape input)
+		(at 36.83 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe477682-0814-46e1-93e7-fe87c5f8f5c6")
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 80.01 77.47 0)
@@ -4484,6 +4614,99 @@
 			(project "BreakoutBoard"
 				(path "/a97e9ae7-7c53-4daf-85b8-910ef7d9e636"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 43.18 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19a13412-16ad-41f7-be37-510a76b755dc")
+		(property "Reference" "J24"
+			(at 44.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LDS"
+			(at 44.45 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PartsLibrary:CONN_37204-62A3-004PL_3MM"
+			(at 43.18 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
+			(at 43.18 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 43.18 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 43.18 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
+			(at 43.18 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42d02f05-8f9c-43da-833b-d207264d3827")
+		)
+		(pin "3"
+			(uuid "6adc9fda-7bb3-4717-8bf6-b614fc0aa0b9")
+		)
+		(pin "2"
+			(uuid "a8cd0d50-4763-401f-ab2d-cc4b76636956")
+		)
+		(pin "4"
+			(uuid "6fbab839-2663-49cd-9196-2858330a942c")
+		)
+		(instances
+			(project "BreakoutBoard"
+				(path "/a97e9ae7-7c53-4daf-85b8-910ef7d9e636"
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -4958,7 +5181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PartsLibrary:3720362A3003PL"
+		(property "Footprint" "PartsLibrary:CONN_37203-62A3-003PL_3MM"
 			(at 167.64 50.8 0)
 			(effects
 				(font
@@ -5181,7 +5404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PartsLibrary:3720362A3003PL"
+		(property "Footprint" "PartsLibrary:CONN_37203-62A3-003PL_3MM"
 			(at 137.16 49.53 0)
 			(effects
 				(font
@@ -5428,7 +5651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PartsLibrary:3720362A3003PL"
+		(property "Footprint" "PartsLibrary:CONN_37203-62A3-003PL_3MM"
 			(at 167.64 67.31 0)
 			(effects
 				(font
@@ -6307,7 +6530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PartsLibrary:3720362A3003PL"
+		(property "Footprint" "PartsLibrary:CONN_37203-62A3-003PL_3MM"
 			(at 137.16 66.04 0)
 			(effects
 				(font
@@ -6443,7 +6666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PartsLibrary:3720362A3003PL"
+		(property "Footprint" "PartsLibrary:CONN_37203-62A3-003PL_3MM"
 			(at 240.03 58.42 0)
 			(effects
 				(font

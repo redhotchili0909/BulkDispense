@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "CONN RCPT 4POS 0.079 GOLD PCB")
 	(tags "37204-62A3-004PL ")
 	(property "Reference" "REF**"
 		(at 1.85 0 0)
@@ -28,7 +29,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -40,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -49,6 +50,30 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "37204-62A3-004PL"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "77919206-57ba-477f-84a3-205aa99916dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Manufacturer" "3M"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "77803ec7-0a96-4968-a07f-fbbffb30784e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)

@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "CONN RCPT 12POS 0.079 GOLD PCB")
 	(tags "37212-62M3-003PL ")
 	(property "Reference" "REF**"
 		(at 9.749998 2 0)
@@ -28,7 +29,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37212-62M3-003PL/1632992"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -40,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "CONN RCPT 12POS 0.079 GOLD PCB"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -49,6 +50,30 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "37212-62M3-003PL "
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "14b11f4b-9052-45c4-b642-aa606d4e552c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Manufacturer" "3M"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "400e62ab-e5eb-44eb-9fe0-25f3d3ae6267")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)

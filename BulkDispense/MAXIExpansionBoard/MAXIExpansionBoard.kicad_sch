@@ -1619,8 +1619,20 @@
 		(uuid 6d484711-9fe1-4fcf-b1af-496d90df0d42)
 	)
 	(rectangle
+		(start 195.58 86.36)
+		(end 233.68 107.95)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8352ff37-67df-4bc6-8809-812d8ca059f6)
+	)
+	(rectangle
 		(start 97.79 170.18)
-		(end 139.7 196.85)
+		(end 160.02 196.85)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2427,7 +2439,7 @@
 	)
 	(text_box "I2C Board Mounting Holes"
 		(exclude_from_sim no)
-		(at 123.19 184.1501 0)
+		(at 143.51 189.23 0)
 		(size 16.51 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2485,6 +2497,26 @@
 		)
 		(uuid "e1c6cd62-95bd-487b-99c9-8c0a25b32a57")
 	)
+	(text_box "Leak Detection"
+		(exclude_from_sim no)
+		(at 215.9 99.06 0)
+		(size 16.51 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9dbae12-0445-444f-a721-50cb38b3a5bb")
+	)
 	(text_box "Reagent Bottle\nMedia Valves"
 		(exclude_from_sim no)
 		(at 177.8 105.41 0)
@@ -2528,16 +2560,8 @@
 		(uuid "1801d939-978a-4e3d-993a-7cb894492b8d")
 	)
 	(no_connect
-		(at 91.44 100.33)
-		(uuid "59354ebd-0d2c-4398-9fa5-67beb34d5a51")
-	)
-	(no_connect
-		(at 91.44 110.49)
-		(uuid "a9868aad-4990-41b2-80d1-7ee4045cdbc7")
-	)
-	(no_connect
-		(at 91.44 105.41)
-		(uuid "d27652f1-7ec7-4f55-ac71-2f437e09f948")
+		(at 208.28 100.33)
+		(uuid "c7316624-7c08-4c8c-bfb7-c05e49a81251")
 	)
 	(wire
 		(pts
@@ -2748,6 +2772,26 @@
 			(type default)
 		)
 		(uuid "3180035b-13d9-4ab1-bff1-e9bf393ce21e")
+	)
+	(wire
+		(pts
+			(xy 208.28 92.71) (xy 209.55 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3260e557-920f-4199-baeb-83406bbcb46b")
+	)
+	(wire
+		(pts
+			(xy 208.28 97.79) (xy 209.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "345ea541-4ed3-4f28-8f7f-369a3c9e54ce")
 	)
 	(wire
 		(pts
@@ -3651,6 +3695,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 95.25) (xy 209.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9287dd9-b72f-4a26-ab2d-f7151078c937")
+	)
+	(wire
+		(pts
 			(xy 43.18 100.33) (xy 44.45 100.33)
 		)
 		(stroke
@@ -3748,6 +3802,16 @@
 			(type default)
 		)
 		(uuid "f2b32c72-d064-4506-9270-4926803c772c")
+	)
+	(wire
+		(pts
+			(xy 208.28 100.33) (xy 209.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3680107-f6a4-4f2b-a727-35f2f1945bb5")
 	)
 	(wire
 		(pts
@@ -3947,17 +4011,6 @@
 		)
 		(uuid "0b7140c9-6cb2-45c8-99d8-02bd5c6bd0f3")
 	)
-	(hierarchical_label "24V"
-		(shape input)
-		(at 91.44 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0d5fd30a-ecf7-46aa-a808-9955a9dbd855")
-	)
 	(hierarchical_label "FS4-4"
 		(shape input)
 		(at 120.65 125.73 180)
@@ -3990,6 +4043,17 @@
 			(justify right)
 		)
 		(uuid "10bd966b-0398-4b20-984c-5195f0e1ba6b")
+	)
+	(hierarchical_label "24V"
+		(shape input)
+		(at 91.44 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11efdb7a-f40f-427e-980d-6cfef6a3802f")
 	)
 	(hierarchical_label "R3_IN"
 		(shape input)
@@ -4277,6 +4341,17 @@
 		)
 		(uuid "3c7b873e-dac1-4467-826f-00073dd977b0")
 	)
+	(hierarchical_label "LDS"
+		(shape input)
+		(at 208.28 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3cb0c8e8-24ed-4043-abd0-233efe402b2d")
+	)
 	(hierarchical_label "24V"
 		(shape input)
 		(at 77.47 167.64 180)
@@ -4298,6 +4373,17 @@
 			(justify right)
 		)
 		(uuid "44e658c3-12ff-45b1-9bcf-b7edbe0a58a5")
+	)
+	(hierarchical_label "LDS-5V"
+		(shape input)
+		(at 208.28 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46d0a8a7-b4b7-4779-b8fd-49e817f7d5c6")
 	)
 	(hierarchical_label "AO0"
 		(shape input)
@@ -4585,6 +4671,17 @@
 		)
 		(uuid "894c0a4e-a1ef-445e-9f66-d2e8aacba223")
 	)
+	(hierarchical_label "LDS"
+		(shape input)
+		(at 91.44 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b4bcc50-45e9-422d-83df-34199b6f8012")
+	)
 	(hierarchical_label "FS4-2"
 		(shape input)
 		(at 120.65 120.65 180)
@@ -4706,6 +4803,17 @@
 		)
 		(uuid "9843e3de-9df1-46ce-bdaf-13c679fc4254")
 	)
+	(hierarchical_label "LDS-GND"
+		(shape input)
+		(at 208.28 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a5318e5-7df2-4c3d-b047-bf42c44beea3")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 44.45 170.18 180)
@@ -4761,6 +4869,17 @@
 		)
 		(uuid "9e2ef68b-e629-42b7-bb4c-ed2ed258ee0a")
 	)
+	(hierarchical_label "LDS-GND"
+		(shape input)
+		(at 91.44 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e97fc7f-cc3e-4163-9c6c-51a073ab6f46")
+	)
 	(hierarchical_label "R1_IN"
 		(shape input)
 		(at 166.37 97.79 180)
@@ -4771,17 +4890,6 @@
 			(justify right)
 		)
 		(uuid "a09072a6-18e5-4071-8bff-96aa4fdeca20")
-	)
-	(hierarchical_label "AO0"
-		(shape input)
-		(at 91.44 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a3d8b60a-d397-496b-b43f-5346aa5c915d")
 	)
 	(hierarchical_label "FS4-2"
 		(shape input)
@@ -4992,6 +5100,17 @@
 		)
 		(uuid "d37d8894-1412-40f1-8942-9d8720117925")
 	)
+	(hierarchical_label "LDS-5V"
+		(shape input)
+		(at 91.44 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3b0f792-04de-4ada-b8b7-8c9dd418d513")
+	)
 	(hierarchical_label "FS2-3"
 		(shape input)
 		(at 219.71 57.15 180)
@@ -5013,6 +5132,17 @@
 			(justify right)
 		)
 		(uuid "d690a525-2744-42dd-a32d-3a130eb148f2")
+	)
+	(hierarchical_label "AO0"
+		(shape input)
+		(at 91.44 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da4cf8d7-d23e-4942-ade9-bc5690bb1740")
 	)
 	(hierarchical_label "FS3-1"
 		(shape input)
@@ -5259,7 +5389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37212-62M3-003PL/1632992"
 			(at 83.82 165.1 0)
 			(effects
 				(font
@@ -5268,7 +5398,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x12, script generated"
+		(property "Description" "CONN RCPT 12POS 0.079 GOLD PCB"
+			(at 83.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37212-62M3-003PL "
+			(at 83.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 83.82 165.1 0)
 			(effects
 				(font
@@ -5376,6 +5524,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 102.87 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 102.87 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "MAXIExpansionBoard"
 				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
@@ -5439,6 +5605,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 95.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 95.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "MAXIExpansionBoard"
 				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
@@ -5494,6 +5678,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 115.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 115.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 115.57 36.83 0)
 			(effects
 				(font
@@ -5571,6 +5773,99 @@
 			(project "MAXIExpansionBoard"
 				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 214.63 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19a13412-16ad-41f7-be37-510a76b755dc")
+		(property "Reference" "J24"
+			(at 215.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LDS"
+			(at 215.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PartsLibrary:CONN_37204-62A3-004PL_3MM"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42d02f05-8f9c-43da-833b-d207264d3827")
+		)
+		(pin "3"
+			(uuid "6adc9fda-7bb3-4717-8bf6-b614fc0aa0b9")
+		)
+		(pin "2"
+			(uuid "a8cd0d50-4763-401f-ab2d-cc4b76636956")
+		)
+		(pin "4"
+			(uuid "6fbab839-2663-49cd-9196-2858330a942c")
+		)
+		(instances
+			(project "MAXIExpansionBoard"
+				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -5678,7 +5973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
 			(at 250.19 73.66 0)
 			(effects
 				(font
@@ -5687,7 +5982,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 250.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 250.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 250.19 73.66 0)
 			(effects
 				(font
@@ -5771,6 +6084,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 95.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 95.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "MAXIExpansionBoard"
 				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
@@ -5834,6 +6165,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 95.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 95.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "MAXIExpansionBoard"
 				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
@@ -5879,7 +6228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37212-62M3-003PL/1632992"
 			(at 50.8 165.1 0)
 			(effects
 				(font
@@ -5888,7 +6237,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x12, script generated"
+		(property "Description" "CONN RCPT 12POS 0.079 GOLD PCB"
+			(at 50.8 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37212-62M3-003PL "
+			(at 50.8 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 50.8 165.1 0)
 			(effects
 				(font
@@ -5937,6 +6304,87 @@
 			(project "MAXIExpansionBoard"
 				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 121.92 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c0aaa96-5dda-4836-a537-01bfc7428800")
+		(property "Reference" "H13"
+			(at 124.46 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 124.46 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 121.92 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 121.92 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 121.92 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 121.92 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "MAXIExpansionBoard"
+				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -5996,6 +6444,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 95.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 95.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "MAXIExpansionBoard"
 				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
@@ -6041,7 +6507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
 			(at 170.18 134.62 0)
 			(effects
 				(font
@@ -6050,7 +6516,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 170.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 170.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 170.18 134.62 0)
 			(effects
 				(font
@@ -6086,7 +6570,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "5b7401be-2c58-4eb8-97d9-28d5cd7956ff")
 		(property "Reference" "J20"
@@ -6116,7 +6600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
 			(at 226.06 71.12 0)
 			(effects
 				(font
@@ -6125,7 +6609,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 226.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 226.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 226.06 71.12 0)
 			(effects
 				(font
@@ -6209,6 +6711,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 121.92 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 121.92 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "MAXIExpansionBoard"
 				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
@@ -6272,6 +6792,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 102.87 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 102.87 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "MAXIExpansionBoard"
 				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
@@ -6317,7 +6855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
 			(at 127 82.55 0)
 			(effects
 				(font
@@ -6326,7 +6864,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 127 82.55 0)
 			(effects
 				(font
@@ -6392,7 +6948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37212-62M3-003PL/1632992"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -6401,7 +6957,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x12, script generated"
+		(property "Description" "CONN RCPT 12POS 0.079 GOLD PCB"
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37212-62M3-003PL "
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 127 110.49 0)
 			(effects
 				(font
@@ -6483,7 +7057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PartsLibrary:3720362A3003PL"
+		(property "Footprint" "PartsLibrary:CONN_37203-62A3-003PL_3MM"
 			(at 119.38 160.02 0)
 			(effects
 				(font
@@ -6492,7 +7066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37203-62A3-003PL/1642666"
 			(at 119.38 160.02 0)
 			(effects
 				(font
@@ -6501,7 +7075,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "CONN RCPT 3POS 0.079 GOLD PCB"
+			(at 119.38 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37203-62A3-003PL"
+			(at 119.38 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 119.38 160.02 0)
 			(effects
 				(font
@@ -6564,7 +7156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
 			(at 207.01 54.61 0)
 			(effects
 				(font
@@ -6573,7 +7165,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 207.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 207.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 207.01 54.61 0)
 			(effects
 				(font
@@ -6705,7 +7315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37212-62M3-003PL/1632992"
 			(at 97.79 97.79 0)
 			(effects
 				(font
@@ -6714,7 +7324,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x12, script generated"
+		(property "Description" "CONN RCPT 12POS 0.079 GOLD PCB"
+			(at 97.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37212-62M3-003PL "
+			(at 97.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 97.79 97.79 0)
 			(effects
 				(font
@@ -6804,7 +7432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
 			(at 250.19 134.62 0)
 			(effects
 				(font
@@ -6813,7 +7441,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 250.19 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 250.19 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 250.19 134.62 0)
 			(effects
 				(font
@@ -6879,7 +7525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
 			(at 209.55 134.62 0)
 			(effects
 				(font
@@ -6888,7 +7534,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 209.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 209.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 209.55 134.62 0)
 			(effects
 				(font
@@ -6954,7 +7618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -6963,7 +7627,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 69.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 69.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -7029,7 +7711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
 			(at 207.01 71.12 0)
 			(effects
 				(font
@@ -7038,7 +7720,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 207.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 207.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 207.01 71.12 0)
 			(effects
 				(font
@@ -7104,7 +7804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
 			(at 250.19 52.07 0)
 			(effects
 				(font
@@ -7113,7 +7813,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 250.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 250.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 250.19 52.07 0)
 			(effects
 				(font
@@ -7179,7 +7897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
 			(at 170.18 52.07 0)
 			(effects
 				(font
@@ -7188,7 +7906,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 170.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 170.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 170.18 52.07 0)
 			(effects
 				(font
@@ -7213,6 +7949,87 @@
 			(project "MAXIExpansionBoard"
 				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 140.97 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a62fd8af-cb3e-40a0-8652-2cb47dcae823")
+		(property "Reference" "H15"
+			(at 143.51 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 143.51 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "MAXIExpansionBoard"
+				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
+					(reference "H15")
 					(unit 1)
 				)
 			)
@@ -7272,6 +8089,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 102.87 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 102.87 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "MAXIExpansionBoard"
 				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
@@ -7317,7 +8152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
 			(at 69.85 87.63 0)
 			(effects
 				(font
@@ -7326,7 +8161,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 69.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 69.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 69.85 87.63 0)
 			(effects
 				(font
@@ -7384,7 +8237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PartsLibrary:3720362A3003PL"
+		(property "Footprint" "PartsLibrary:CONN_37203-62A3-003PL_3MM"
 			(at 171.45 74.93 0)
 			(effects
 				(font
@@ -7393,7 +8246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37203-62A3-003PL/1642666"
 			(at 171.45 74.93 0)
 			(effects
 				(font
@@ -7403,6 +8256,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37203-62A3-003PL"
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 171.45 74.93 0)
 			(effects
 				(font
@@ -7424,6 +8295,87 @@
 			(project "MAXIExpansionBoard"
 				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
 					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 121.92 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba7284a3-e28d-43e0-893c-ed5d6e80a62c")
+		(property "Reference" "H12"
+			(at 124.46 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 124.46 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 121.92 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 121.92 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 121.92 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 121.92 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "MAXIExpansionBoard"
+				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -7483,6 +8435,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 121.92 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 121.92 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "MAXIExpansionBoard"
 				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
@@ -7529,7 +8499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/691137710002/6644051"
 			(at 60.96 41.91 0)
 			(effects
 				(font
@@ -7538,7 +8508,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "TERM BLK 2POS SIDE ENTRY 5MM PCB"
+			(at 60.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "691137710002"
+			(at 60.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
 			(at 60.96 41.91 0)
 			(effects
 				(font
@@ -7598,7 +8586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
 			(at 172.72 92.71 0)
 			(effects
 				(font
@@ -7607,7 +8595,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 172.72 92.71 0)
 			(effects
 				(font
@@ -7673,7 +8679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37212-62M3-003PL/1632992"
 			(at 49.53 97.79 0)
 			(effects
 				(font
@@ -7682,7 +8688,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x12, script generated"
+		(property "Description" "CONN RCPT 12POS 0.079 GOLD PCB"
+			(at 49.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37212-62M3-003PL "
+			(at 49.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 49.53 97.79 0)
 			(effects
 				(font
@@ -7737,6 +8761,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 140.97 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e31393d8-c78e-4d4d-a433-085afaba68af")
+		(property "Reference" "H14"
+			(at 143.51 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 143.51 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "MAXIExpansionBoard"
+				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
+					(reference "H14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 172.72 105.41 0)
 		(unit 1)
@@ -7772,7 +8877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
 			(at 172.72 105.41 0)
 			(effects
 				(font
@@ -7781,7 +8886,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 172.72 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 172.72 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 172.72 105.41 0)
 			(effects
 				(font
@@ -7865,6 +8988,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 102.87 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 102.87 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "MAXIExpansionBoard"
 				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
@@ -7910,7 +9051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
 			(at 226.06 54.61 0)
 			(effects
 				(font
@@ -7919,7 +9060,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 226.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 226.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
 			(at 226.06 54.61 0)
 			(effects
 				(font
