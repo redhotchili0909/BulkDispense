@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "606da4cb-520b-4037-b537-1cc4fbfe4ea3")
+	(uuid "bdba68b6-6685-458e-b2b7-fdcdedf1a9f7")
 	(paper "User" 177.8 177.8)
 	(lib_symbols
 		(symbol "LynxActuatorSymbols:24V-BLOCK+"
@@ -733,6 +733,16 @@
 			(justify left)
 		)
 		(uuid "481f3574-37cf-440f-87f3-9a087ec1c8d3")
+	)
+	(text "24V Power Distribuition"
+		(exclude_from_sim no)
+		(at 60.452 23.368 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "6d1ff178-b4a0-4e87-8714-31fe2fbcdff2")
 	)
 	(wire
 		(pts

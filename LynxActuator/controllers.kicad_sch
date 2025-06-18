@@ -899,6 +899,16 @@
 		)
 		(uuid "8069d783-fcb1-4ef1-9416-e4e47a502a2a")
 	)
+	(text "Controllers"
+		(exclude_from_sim no)
+		(at 38.1 18.542 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "c1c96010-70d4-4fc8-b0cd-2213c006e3b8")
+	)
 	(text "ClearCore \nExpansion Board"
 		(exclude_from_sim no)
 		(at 31.75 80.01 0)
@@ -18763,20 +18773,6 @@
 		)
 		(uuid "0de3090e-669c-4756-a7f5-a5920003672b")
 	)
-	(hierarchical_label "MYSTERY_SENSOR"
-		(shape input)
-		(at 195.58 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 107 0 255 1)
-			)
-			(justify left)
-		)
-		(uuid "18ca0084-fb2b-4e00-a76a-db324b999bbe")
-	)
 	(hierarchical_label "SENSOR8_OUT"
 		(shape input)
 		(at 93.98 114.3 180)
@@ -18887,6 +18883,17 @@
 		)
 		(uuid "57ab5d17-b065-4ce2-b1af-7c655ad7c27e")
 	)
+	(hierarchical_label "PRESSURE_SENSOR"
+		(shape input)
+		(at 195.58 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63dad249-1f7e-4eeb-a6e6-1b1a5fb6dc70")
+	)
 	(hierarchical_label "GND_(CLEAR-CORE)"
 		(shape input)
 		(at 162.56 130.81 180)
@@ -18919,20 +18926,6 @@
 			(justify right)
 		)
 		(uuid "74ccec29-6afa-4a68-b973-55665722a8c5")
-	)
-	(hierarchical_label "MYSTERY_MOTOR"
-		(shape input)
-		(at 199.39 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 107 0 255 1)
-			)
-			(justify left)
-		)
-		(uuid "8fdbfdd0-fccd-4c60-8223-a0a98df1a5ea")
 	)
 	(hierarchical_label "USB_PORT"
 		(shape input)
@@ -18999,6 +18992,17 @@
 			(justify right)
 		)
 		(uuid "eeba63ce-1006-4512-abb8-a79cad987359")
+	)
+	(hierarchical_label "RAIL_MOTOR"
+		(shape input)
+		(at 199.39 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4d2857d-bddf-4ed8-adef-c72be542d20a")
 	)
 	(hierarchical_label "-24V_(CCIO)"
 		(shape input)

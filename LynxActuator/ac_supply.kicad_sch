@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "28b98c26-6c80-49ce-98af-8a0f55ba5e24")
+	(uuid "aae04a2a-c5b1-412c-99ee-516f745d9f60")
 	(paper "User" 152.4 152.4)
 	(lib_symbols
 		(symbol "LynxActuatorSymbols:PT_2,5-PE/L/N"
@@ -903,6 +903,28 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 21.59 26.67)
+		(end 134.62 100.33)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6ad61180-11d3-4af5-b219-4ce94aad5c96)
+	)
+	(text "AC Supply"
+		(exclude_from_sim no)
+		(at 40.64 20.574 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "a6efefa8-ab52-4104-9235-ee4f9cf37e8c")
 	)
 	(junction
 		(at 83.82 67.31)

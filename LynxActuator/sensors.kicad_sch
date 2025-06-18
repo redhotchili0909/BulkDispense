@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "e151978e-6981-4350-8a50-d55c5c5399ec")
+	(uuid "4771ecc0-62c1-498b-9adf-eb5c2d9127e0")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic_MountingPin:Conn_02x40_Row_Letter_First_MountingPin"
@@ -3538,8 +3538,8 @@
 		)
 	)
 	(rectangle
-		(start 20.32 21.59)
-		(end 142.24 156.21)
+		(start 21.59 30.48)
+		(end 143.51 165.1)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3550,8 +3550,8 @@
 		(uuid 3ff3bf46-c2fe-4d17-9f78-65a68692cfc3)
 	)
 	(rectangle
-		(start 142.24 21.59)
-		(end 264.16 156.21)
+		(start 143.51 30.48)
+		(end 265.43 165.1)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3563,7 +3563,7 @@
 	)
 	(text "Sensor 1~4 \nTerminal Block"
 		(exclude_from_sim no)
-		(at 147.828 66.04 0)
+		(at 149.098 74.93 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -3574,7 +3574,7 @@
 	)
 	(text "Sensor Outputs \nFrom Lynx"
 		(exclude_from_sim no)
-		(at 29.718 65.278 0)
+		(at 30.988 74.168 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -3583,77 +3583,87 @@
 		)
 		(uuid "b822cf1c-f150-47a0-b835-8e385a36571c")
 	)
+	(text "Sensors"
+		(exclude_from_sim no)
+		(at 36.576 25.4 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "bef60b87-c553-41bc-8ede-7d400846daf0")
+	)
 	(no_connect
-		(at 243.84 127)
+		(at 245.11 135.89)
 		(uuid "04c86d21-a83d-47ae-8e12-721e5af64d97")
 	)
 	(no_connect
-		(at 243.84 113.03)
+		(at 245.11 121.92)
 		(uuid "06d1b9fb-0e88-4ccf-96fd-5dcacfae7832")
 	)
 	(no_connect
-		(at 184.15 113.03)
+		(at 185.42 121.92)
 		(uuid "1a49bc2c-47b3-4d71-9c50-9e67f79c0100")
 	)
 	(no_connect
-		(at 243.84 109.22)
+		(at 245.11 118.11)
 		(uuid "3a4a7029-65cc-4b70-8dc1-390d9da1cd02")
 	)
 	(no_connect
-		(at 184.15 138.43)
+		(at 185.42 147.32)
 		(uuid "3ed09c17-3edc-4812-b446-11859bf24b8f")
 	)
 	(no_connect
-		(at 205.74 105.41)
+		(at 207.01 114.3)
 		(uuid "4292f469-3962-4692-bab7-c4c9ea4a67ef")
 	)
 	(no_connect
-		(at 184.15 142.24)
+		(at 185.42 151.13)
 		(uuid "529cad5b-3639-4d1c-8c56-cadf5049cdba")
 	)
 	(no_connect
-		(at 243.84 138.43)
+		(at 245.11 147.32)
 		(uuid "59b8ce3d-8a18-4823-8ef9-f58c924217a9")
 	)
 	(no_connect
-		(at 184.15 93.98)
+		(at 185.42 102.87)
 		(uuid "872ebe4b-48d2-4a88-b3fa-cc9f61927f9b")
 	)
 	(no_connect
-		(at 184.15 123.19)
+		(at 185.42 132.08)
 		(uuid "96dcf0e9-821c-460a-90cd-4c91bdf999f3")
 	)
 	(no_connect
-		(at 243.84 105.41)
+		(at 245.11 114.3)
 		(uuid "9ee31d45-9c1d-48d2-927f-3a48d8c3b600")
 	)
 	(no_connect
-		(at 222.25 93.98)
+		(at 223.52 102.87)
 		(uuid "a26b5f52-9683-4083-804b-8b7960775647")
 	)
 	(no_connect
-		(at 243.84 134.62)
+		(at 245.11 143.51)
 		(uuid "c20b8d85-44f7-4a82-86b8-a43125ae3590")
 	)
 	(no_connect
-		(at 243.84 97.79)
+		(at 245.11 106.68)
 		(uuid "d6ef3640-87ad-43f2-be65-4c2aed2f5b9d")
 	)
 	(no_connect
-		(at 184.15 127)
+		(at 185.42 135.89)
 		(uuid "db3044d2-a2df-4ee0-b97b-75cdceb4af71")
 	)
 	(no_connect
-		(at 205.74 134.62)
+		(at 207.01 143.51)
 		(uuid "de4c186a-8b70-48ae-9cca-cc920d4c0488")
 	)
 	(no_connect
-		(at 222.25 123.19)
+		(at 223.52 132.08)
 		(uuid "e611a3b7-91b4-4759-94bc-24501fdc464d")
 	)
 	(wire
 		(pts
-			(xy 205.74 142.24) (xy 222.25 142.24)
+			(xy 207.01 151.13) (xy 223.52 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3663,7 +3673,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 109.22) (xy 222.25 109.22)
+			(xy 207.01 118.11) (xy 223.52 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3673,7 +3683,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 113.03) (xy 222.25 113.03)
+			(xy 207.01 121.92) (xy 223.52 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3683,7 +3693,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 138.43) (xy 222.25 138.43)
+			(xy 207.01 147.32) (xy 223.52 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3693,7 +3703,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 127) (xy 222.25 127)
+			(xy 207.01 135.89) (xy 223.52 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3703,7 +3713,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 97.79) (xy 222.25 97.79)
+			(xy 207.01 106.68) (xy 223.52 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3712,7 +3722,7 @@
 		(uuid "dab1edb0-c93d-45d8-ad3e-b7db90926358")
 	)
 	(image
-		(at 171.45 41.91)
+		(at 172.72 50.8)
 		(scale 0.749764)
 		(uuid "266ac910-7907-4ec8-8b44-a361ccc6ecf6")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAyoAAAIKCAIAAABDcCwSAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
@@ -9378,7 +9388,7 @@
 		)
 	)
 	(image
-		(at 50.8 41.91)
+		(at 52.07 50.8)
 		(scale 2.54558)
 		(uuid "9672dcb2-0565-4376-a88e-1f0b129d0096")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAMgAAACWCAIAAAAUvlBOAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
@@ -10039,7 +10049,7 @@
 		)
 	)
 	(label "SENSOR1_IN"
-		(at 97.79 40.64 180)
+		(at 99.06 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10049,7 +10059,7 @@
 		(uuid "06cb109b-fed5-422b-bb26-bcb9d9d14b9c")
 	)
 	(label "SENSOR1_IN"
-		(at 184.15 105.41 180)
+		(at 185.42 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10059,7 +10069,7 @@
 		(uuid "0828dfad-cc4c-4402-bca4-48b54a17dddf")
 	)
 	(label "SENSOR4_IN"
-		(at 110.49 43.18 0)
+		(at 111.76 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10069,7 +10079,7 @@
 		(uuid "17d33be7-a8e8-43dc-a304-9f74d0bb0127")
 	)
 	(label "SENSOR2_IN"
-		(at 222.25 105.41 180)
+		(at 223.52 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10079,7 +10089,7 @@
 		(uuid "53a46a9d-53ca-499a-a99c-0c138bff1a29")
 	)
 	(label "SENSOR2_IN"
-		(at 110.49 40.64 0)
+		(at 111.76 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10089,7 +10099,7 @@
 		(uuid "54444580-6246-498f-bb0f-55a07a6aa8c0")
 	)
 	(label "SENSOR4_IN"
-		(at 222.25 134.62 180)
+		(at 223.52 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10099,7 +10109,7 @@
 		(uuid "95ce2146-9eba-4bf8-8213-6ea32a6d3013")
 	)
 	(label "SENSOR3_IN"
-		(at 184.15 134.62 180)
+		(at 185.42 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10109,7 +10119,7 @@
 		(uuid "a6c5a257-e2c3-4e60-86c9-3a3be9ce9966")
 	)
 	(label "SENSOR3_IN"
-		(at 97.79 43.18 180)
+		(at 99.06 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10120,7 +10130,7 @@
 	)
 	(hierarchical_label "SENSOR14_IN"
 		(shape input)
-		(at 110.49 55.88 0)
+		(at 111.76 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10131,7 +10141,7 @@
 	)
 	(hierarchical_label "-24V_(ST)"
 		(shape input)
-		(at 184.15 97.79 180)
+		(at 185.42 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10142,7 +10152,7 @@
 	)
 	(hierarchical_label "SENSOR9_IN"
 		(shape input)
-		(at 97.79 50.8 180)
+		(at 99.06 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10153,7 +10163,7 @@
 	)
 	(hierarchical_label "SENSOR15_IN"
 		(shape input)
-		(at 97.79 58.42 180)
+		(at 99.06 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10164,7 +10174,7 @@
 	)
 	(hierarchical_label "SENSOR6_IN"
 		(shape input)
-		(at 110.49 45.72 0)
+		(at 111.76 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10175,7 +10185,7 @@
 	)
 	(hierarchical_label "SENSOR12_IN"
 		(shape input)
-		(at 110.49 53.34 0)
+		(at 111.76 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10186,7 +10196,7 @@
 	)
 	(hierarchical_label "SENSOR2_IN"
 		(shape input)
-		(at 205.74 123.19 0)
+		(at 207.01 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10197,7 +10207,7 @@
 	)
 	(hierarchical_label "SENSOR4_IN"
 		(shape input)
-		(at 205.74 93.98 0)
+		(at 207.01 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10208,7 +10218,7 @@
 	)
 	(hierarchical_label "-24V_(ST)"
 		(shape input)
-		(at 243.84 142.24 0)
+		(at 245.11 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10219,7 +10229,7 @@
 	)
 	(hierarchical_label "SENSOR13_IN"
 		(shape input)
-		(at 97.79 55.88 180)
+		(at 99.06 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10230,7 +10240,7 @@
 	)
 	(hierarchical_label "SENSOR5_IN"
 		(shape input)
-		(at 97.79 45.72 180)
+		(at 99.06 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10241,7 +10251,7 @@
 	)
 	(hierarchical_label "SENSOR8_IN"
 		(shape input)
-		(at 110.49 48.26 0)
+		(at 111.76 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10252,7 +10262,7 @@
 	)
 	(hierarchical_label "+24V_(ST)"
 		(shape input)
-		(at 184.15 109.22 180)
+		(at 185.42 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10263,7 +10273,7 @@
 	)
 	(hierarchical_label "SENSOR11_IN"
 		(shape input)
-		(at 97.79 53.34 180)
+		(at 99.06 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10274,7 +10284,7 @@
 	)
 	(hierarchical_label "SENSOR3_IN"
 		(shape input)
-		(at 243.84 93.98 0)
+		(at 245.11 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10285,7 +10295,7 @@
 	)
 	(hierarchical_label "SENSOR10_IN"
 		(shape input)
-		(at 110.49 50.8 0)
+		(at 111.76 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10296,7 +10306,7 @@
 	)
 	(hierarchical_label "SENSOR1_IN"
 		(shape input)
-		(at 243.84 123.19 0)
+		(at 245.11 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10307,7 +10317,7 @@
 	)
 	(hierarchical_label "SENSOR7_IN"
 		(shape input)
-		(at 97.79 48.26 180)
+		(at 99.06 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10318,7 +10328,7 @@
 	)
 	(symbol
 		(lib_id "LynxActuatorSymbols:WAGO-2000-5420")
-		(at 191.77 101.6 0)
+		(at 193.04 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10326,7 +10336,7 @@
 		(dnp no)
 		(uuid "2de55751-bed2-470a-9677-838f1886ebdb")
 		(property "Reference" "TB13"
-			(at 188.214 87.884 0)
+			(at 189.484 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10334,7 +10344,7 @@
 			)
 		)
 		(property "Value" "WAGO 2000-5420/1399-987"
-			(at 214.884 81.026 0)
+			(at 216.154 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10342,7 +10352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 101.6 0)
+			(at 193.04 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10351,7 +10361,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.wago.com/us/rail-chassis-terminal-blocks/4-conductor-sensor-terminal-block/p/2000-5420_1399-987"
-			(at 192.532 85.09 0)
+			(at 193.802 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10360,7 +10370,7 @@
 			)
 		)
 		(property "Description" "4-conductor sensor terminal block"
-			(at 192.532 85.09 0)
+			(at 193.802 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10410,7 +10420,7 @@
 	(symbol
 		(lib_name "WAGO-2000-5420_1")
 		(lib_id "LynxActuatorSymbols:WAGO-2000-5420")
-		(at 229.87 101.6 0)
+		(at 231.14 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10418,7 +10428,7 @@
 		(dnp no)
 		(uuid "53865131-ea3e-4360-8469-45ecc4783b62")
 		(property "Reference" "TB14"
-			(at 226.314 87.884 0)
+			(at 227.584 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10426,7 +10436,7 @@
 			)
 		)
 		(property "Value" "WAGO 2000-5420/1399-987"
-			(at 233.045 86.36 0)
+			(at 234.315 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10435,7 +10445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 101.6 0)
+			(at 231.14 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10444,7 +10454,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.wago.com/us/rail-chassis-terminal-blocks/4-conductor-sensor-terminal-block/p/2000-5420_1399-987"
-			(at 230.632 85.09 0)
+			(at 231.902 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10453,7 +10463,7 @@
 			)
 		)
 		(property "Description" "4-conductor sensor terminal block"
-			(at 230.632 85.09 0)
+			(at 231.902 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10503,7 +10513,7 @@
 	(symbol
 		(lib_name "WAGO-2000-5420_3")
 		(lib_id "LynxActuatorSymbols:WAGO-2000-5420")
-		(at 229.87 130.81 0)
+		(at 231.14 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10511,7 +10521,7 @@
 		(dnp no)
 		(uuid "5ecf920c-12b0-4fb1-a83b-c428c0e68c4b")
 		(property "Reference" "TB16"
-			(at 226.314 117.094 0)
+			(at 227.584 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10519,7 +10529,7 @@
 			)
 		)
 		(property "Value" "WAGO 2000-5420/1399-987"
-			(at 233.045 115.57 0)
+			(at 234.315 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10528,7 +10538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 130.81 0)
+			(at 231.14 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10537,7 +10547,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.wago.com/us/rail-chassis-terminal-blocks/4-conductor-sensor-terminal-block/p/2000-5420_1399-987"
-			(at 230.632 114.3 0)
+			(at 231.902 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10546,7 +10556,7 @@
 			)
 		)
 		(property "Description" "4-conductor sensor terminal block"
-			(at 230.632 114.3 0)
+			(at 231.902 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10596,7 +10606,7 @@
 	(symbol
 		(lib_name "WAGO-2000-5420_2")
 		(lib_id "LynxActuatorSymbols:WAGO-2000-5420")
-		(at 191.77 130.81 0)
+		(at 193.04 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10604,7 +10614,7 @@
 		(dnp no)
 		(uuid "81add91a-3f69-4407-81f5-4cc9adce1158")
 		(property "Reference" "TB15"
-			(at 188.214 117.094 0)
+			(at 189.484 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10612,7 +10622,7 @@
 			)
 		)
 		(property "Value" "WAGO 2000-5420/1399-987"
-			(at 194.945 115.57 0)
+			(at 196.215 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10621,7 +10631,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 130.81 0)
+			(at 193.04 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10630,7 +10640,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.wago.com/us/rail-chassis-terminal-blocks/4-conductor-sensor-terminal-block/p/2000-5420_1399-987"
-			(at 192.532 114.3 0)
+			(at 193.802 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10639,7 +10649,7 @@
 			)
 		)
 		(property "Description" "4-conductor sensor terminal block"
-			(at 192.532 114.3 0)
+			(at 193.802 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10688,7 +10698,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_02x40_Row_Letter_First_MountingPin")
-		(at 102.87 88.9 0)
+		(at 104.14 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10696,7 +10706,7 @@
 		(dnp no)
 		(uuid "c1fe7683-2eaf-430b-a45b-b279d82ce320")
 		(property "Reference" "J2"
-			(at 103.632 147.066 0)
+			(at 104.902 155.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10704,7 +10714,7 @@
 			)
 		)
 		(property "Value" "MIL-20 Connector"
-			(at 102.87 29.718 0)
+			(at 104.14 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10712,7 +10722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 88.9 0)
+			(at 104.14 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10721,7 +10731,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 88.9 0)
+			(at 104.14 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10730,7 +10740,7 @@
 			)
 		)
 		(property "Description" "MIL-20 Sensors Connector"
-			(at 102.87 88.9 0)
+			(at 104.14 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)

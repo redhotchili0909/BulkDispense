@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c74bb756-8d70-4991-9c5f-6d079a85a12a")
+	(uuid "1a6fa1ee-90a8-4a61-9605-ff2c094305df")
 	(paper "User" 228.6 152.4)
 	(lib_symbols
 		(symbol "LynxActuatorSymbols:IPC5"
@@ -606,6 +606,16 @@
 			(type none)
 		)
 		(uuid 5efb817a-8a15-462c-adf4-1b1610c2f84f)
+	)
+	(text "75V System"
+		(exclude_from_sim no)
+		(at 49.276 22.86 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "21c88b10-4de5-400f-bc67-89e9f9d06cab")
 	)
 	(text "75V DC to Motor"
 		(exclude_from_sim no)

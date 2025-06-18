@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c00792c9-9536-47cc-b45a-c9804e7edbe9")
+	(uuid "55f36e30-4816-40c5-aac9-0ada162915a8")
 	(paper "User" 152.4 152.4)
 	(lib_symbols
 		(symbol "LynxActuatorSymbols:PTTB_2,5"
@@ -492,6 +492,16 @@
 			(type none)
 		)
 		(uuid 0f51a932-e510-400c-81e3-7970118f259e)
+	)
+	(text "24V Power Supply"
+		(exclude_from_sim no)
+		(at 50.8 23.368 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "6dde88f9-f34d-45b5-ab3a-2a83e7d8356c")
 	)
 	(text "250VAC to 24VDC"
 		(exclude_from_sim no)
