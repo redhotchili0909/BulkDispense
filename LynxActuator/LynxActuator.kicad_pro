@@ -281,6 +281,10 @@
       "Net-(PH1-DC_OUT)": [
         "+75V",
         "-75V"
+      ],
+      "Net-(PH2-DC_OUT)": [
+        "+75V",
+        "-75V"
       ]
     },
     "netclass_patterns": []
@@ -363,12 +367,24 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -416,6 +432,30 @@
     [
       "c247d992-d64f-49a6-bc06-47157267b9de",
       "Root"
+    ],
+    [
+      "0af282f3-0910-494f-a4b0-85740d9ddab4",
+      "SENSORS"
+    ],
+    [
+      "1d6781c7-9bdf-421e-8826-ce57f3717e90",
+      "CONTROLLERS"
+    ],
+    [
+      "c43e1f3f-908d-465b-ae0e-4079786d891b",
+      "24V POWER DISTRIBUITION"
+    ],
+    [
+      "820d1114-e560-4493-be17-9cb9fbd00099",
+      "75V SYSTEM"
+    ],
+    [
+      "6d7702cd-f92e-4880-999a-82f1f316130b",
+      "24V POWER SUPPLY"
+    ],
+    [
+      "69a721a7-408f-4a49-9fb8-a713f5b2b700",
+      "AC SUPPLY"
     ]
   ],
   "text_variables": {}

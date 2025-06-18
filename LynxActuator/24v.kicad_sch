@@ -1,0 +1,1129 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "606da4cb-520b-4037-b537-1cc4fbfe4ea3")
+	(paper "User" 177.8 177.8)
+	(lib_symbols
+		(symbol "LynxActuatorSymbols:24V-BLOCK+"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TB"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "24V-BLOCK+_0_1"
+				(rectangle
+					(start -12.7 17.78)
+					(end 12.7 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "24V-BLOCK+_1_1"
+				(pin input line
+					(at -15.24 15.24 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 11.43 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -11.43 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 20.32 270)
+					(length 2.54)
+					(name "+24V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 15.24 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 11.43 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LynxActuatorSymbols:24V-BLOCK-"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TB"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "24V-BLOCK-_0_1"
+				(rectangle
+					(start -12.7 15.24)
+					(end 12.7 -16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "24V-BLOCK-_1_1"
+				(pin input line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 8.89 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -6.35 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -13.97 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 2.54)
+					(name "-24V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 8.89 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -6.35 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 15.24 30.48)
+		(end 162.56 128.27)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b5024649-1258-4734-a9bf-cc3c42e52402)
+	)
+	(text "CT: Contactor\nPH: Power4Hub\nCC: Clear Core\nCCIO: Clear Core Expansion Board\nST: Sensor Terminal\n"
+		(exclude_from_sim no)
+		(at 21.336 44.958 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left)
+		)
+		(uuid "481f3574-37cf-440f-87f3-9a087ec1c8d3")
+	)
+	(wire
+		(pts
+			(xy 132.08 69.85) (xy 132.08 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8d11b8-54f1-4020-8d99-833cc70ed14e")
+	)
+	(wire
+		(pts
+			(xy 58.42 71.12) (xy 58.42 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e628e0-25bf-4b55-bef8-c4bc349e2f9d")
+	)
+	(hierarchical_label "+24V"
+		(shape input)
+		(at 58.42 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00511359-84c4-4c4a-bbaa-4a8ed45592a0")
+	)
+	(hierarchical_label "+24V_(LYNX_OUTBOUND)"
+		(shape input)
+		(at 43.18 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c7b73fe-bed9-426f-8506-513fd48d5348")
+	)
+	(hierarchical_label "+24V_(CC)"
+		(shape input)
+		(at 43.18 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0cfefc92-4626-48eb-8330-8e3c4f95650f")
+	)
+	(hierarchical_label "+24V_(ST)"
+		(shape input)
+		(at 43.18 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "290d23bf-f58f-40bd-b96b-9ac7af133b87")
+	)
+	(hierarchical_label "-24V"
+		(shape input)
+		(at 132.08 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d478571-f54f-4b9a-a205-7057d45803af")
+	)
+	(hierarchical_label "-24V_(LYNX_OUTBOUND)"
+		(shape input)
+		(at 116.84 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "492fb757-1bf2-40d2-b339-e89d6bc54af9")
+	)
+	(hierarchical_label "-24V_(CC)"
+		(shape input)
+		(at 116.84 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "576d041b-17a4-446b-a318-819058edd9cc")
+	)
+	(hierarchical_label "+24V_(CCIO)"
+		(shape input)
+		(at 43.18 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f836bfb-042b-45a5-9ade-0700b2521f3f")
+	)
+	(hierarchical_label "-24V_(PH)"
+		(shape input)
+		(at 116.84 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77415592-c04b-42d3-918d-fa5a678d8f4c")
+	)
+	(hierarchical_label "+24V_(E-STOP)"
+		(shape input)
+		(at 43.18 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80baf55e-eb8d-44a1-8065-73f41776a85b")
+	)
+	(hierarchical_label "-24V_(CT)"
+		(shape input)
+		(at 116.84 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94c9670d-f3d5-4e6c-b72d-36563a6073b1")
+	)
+	(hierarchical_label "+24V_(PH)"
+		(shape input)
+		(at 43.18 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbb85638-7869-43c0-81a2-c4b28831cd72")
+	)
+	(hierarchical_label "-24V_(ST)"
+		(shape input)
+		(at 116.84 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3403c30-0b71-4689-a0fa-a985b2c73809")
+	)
+	(hierarchical_label "-24V_(CCIO)"
+		(shape input)
+		(at 116.84 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed739694-ef59-4cec-9f1d-d56b5d4fd12a")
+	)
+	(symbol
+		(lib_id "LynxActuatorSymbols:24V-BLOCK-")
+		(at 132.08 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52d476ae-425c-4407-8b29-0c7e00070240")
+		(property "Reference" "TB1"
+			(at 132.08 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-24V TERMINAL BLOCK"
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "43cc1033-e54b-4dc8-a1b8-8f5331374e0f")
+		)
+		(pin "5"
+			(uuid "97deaf19-c04d-4822-b0b2-4cda31b98302")
+		)
+		(pin "11"
+			(uuid "14d56cea-c490-4ea7-9052-01dce5cf4abb")
+		)
+		(pin "7"
+			(uuid "d613df9a-d807-45de-8d22-a0e7c7a5f397")
+		)
+		(pin "3"
+			(uuid "c89cc757-882c-414f-973e-e6e1521b054e")
+		)
+		(pin "4"
+			(uuid "8ac73004-5ed4-4b73-9845-23223e68825c")
+		)
+		(pin "2"
+			(uuid "3f2cb3a5-2dc4-4185-b338-279b54b0999b")
+		)
+		(pin "8"
+			(uuid "e64cdc50-d00d-40c3-b909-f22d0032e273")
+		)
+		(pin "1"
+			(uuid "81cec0d6-d9ee-4e61-9f1a-73aabff936ba")
+		)
+		(pin "9"
+			(uuid "a8474a83-1823-44e1-bcfe-5b0bfff29edf")
+		)
+		(pin "10"
+			(uuid "74c04052-02ec-47db-a45e-03177cdf7a25")
+		)
+		(pin "12"
+			(uuid "4082d9ce-5460-4ee6-bc13-e9a9bd34bcab")
+		)
+		(pin "15"
+			(uuid "1393640a-e252-4443-a179-d74b5085bc2c")
+		)
+		(pin "14"
+			(uuid "0ca82d15-f1b5-44fb-b758-d249e2088c12")
+		)
+		(pin "16"
+			(uuid "6718450d-f0ac-4a69-93e1-763f8fc716b0")
+		)
+		(pin "13"
+			(uuid "5d893cbc-65ba-4d1d-81ed-cffbae25f795")
+		)
+		(instances
+			(project "LynxActuator"
+				(path "/c247d992-d64f-49a6-bc06-47157267b9de/c43e1f3f-908d-465b-ae0e-4079786d891b"
+					(reference "TB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LynxActuatorSymbols:24V-BLOCK+")
+		(at 58.42 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ab4e3e5-3943-421d-bce3-5e3c3678bc83")
+		(property "Reference" "TB2"
+			(at 58.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V TERMINAL BLOCK"
+			(at 58.674 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5d650bab-72be-48c8-80db-69c608c4d84f")
+		)
+		(pin "10"
+			(uuid "283a4706-3115-48d2-9988-1badf68b5d45")
+		)
+		(pin "2"
+			(uuid "a4573918-3b58-4050-a7fc-ea868d86df0b")
+		)
+		(pin "5"
+			(uuid "8857811a-2c50-41b6-bbd7-7c619883adef")
+		)
+		(pin "3"
+			(uuid "ac22bf86-f91d-450b-9e3b-d1f156a6acb2")
+		)
+		(pin "6"
+			(uuid "b2ed4138-8c00-4284-a000-a1dffad681a0")
+		)
+		(pin "7"
+			(uuid "33f4f1ea-7840-4874-af17-bed859ff1dcd")
+		)
+		(pin "8"
+			(uuid "9d78550a-fe5e-48e9-99d6-853bd7dcfb8c")
+		)
+		(pin "1"
+			(uuid "a0912bb6-b086-4658-aaec-530f96c76dbd")
+		)
+		(pin "9"
+			(uuid "72a93306-041b-4d80-b42c-43c2e8fe8bc3")
+		)
+		(pin "14"
+			(uuid "15bc3ac1-d307-4c29-aeed-4ac903f8659b")
+		)
+		(pin "15"
+			(uuid "3ab48f03-32ec-4d9d-af33-90856d4b4d85")
+		)
+		(pin "16"
+			(uuid "c0015e6d-01f3-4760-b1e2-b93a812b44d4")
+		)
+		(pin "12"
+			(uuid "16589867-6a1d-435f-a1e0-045b8e6c2355")
+		)
+		(pin "13"
+			(uuid "c76120e0-2b2d-44ac-bd86-7b1b2e00a528")
+		)
+		(pin "11"
+			(uuid "de93b62c-43a5-48bb-bfad-81cf4dabc270")
+		)
+		(instances
+			(project "LynxActuator"
+				(path "/c247d992-d64f-49a6-bc06-47157267b9de/c43e1f3f-908d-465b-ae0e-4079786d891b"
+					(reference "TB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
