@@ -3288,6 +3288,32 @@
 				)
 			)
 		)
+		(property "MPN" "LTST-S270GKT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88b75d80-c144-44bb-8723-611ca3f1e247")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a79fe6b-bd49-4c5d-998b-91b301cdcf6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(sheetname "/")
 		(sheetfile "BreakoutBoard.kicad_sch")
@@ -3300,7 +3326,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "46db7b8b-3887-4c81-b995-62db5bc05604")
+			(uuid "3ea4c734-b25f-43e3-8125-d427079be576")
 		)
 		(fp_line
 			(start -2.285 1.135)
@@ -3310,7 +3336,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bdbaa077-3bf1-4c57-8c5c-9cdb049fb1f1")
+			(uuid "eb61e7f3-58d4-41bb-85d0-c0508debc7cc")
 		)
 		(fp_line
 			(start -2.285 -1.135)
@@ -3320,7 +3346,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4b3f267c-aaef-49ce-a068-de71290c8e4a")
+			(uuid "961488bf-445c-4b85-80eb-04ed318d78e0")
 		)
 		(fp_line
 			(start 2.28 1.13)
@@ -3330,7 +3356,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "12eff344-d96b-4089-ae5c-791d6c9f78ef")
+			(uuid "e23b68c3-cfff-4105-80ca-2b1a706e2286")
 		)
 		(fp_line
 			(start 2.28 -1.13)
@@ -3340,7 +3366,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "cf1f9aec-6631-4600-ba8c-90a52696f4a2")
+			(uuid "44273289-9330-49c3-8016-589acfba779f")
 		)
 		(fp_line
 			(start -2.28 1.13)
@@ -3350,7 +3376,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "746e0628-7b35-4e64-868f-ed007b4fa5fc")
+			(uuid "b1aa86d2-6da4-4e4f-b2ae-06e267531cad")
 		)
 		(fp_line
 			(start -2.28 -1.13)
@@ -3360,7 +3386,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d5844c8b-9e17-46d5-9c29-93bc3c56590f")
+			(uuid "486922d3-8c2b-473e-8476-dc125f7c7d41")
 		)
 		(fp_line
 			(start 1.6 0.8)
@@ -3370,7 +3396,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "90e980ef-47ec-4766-b683-8c1e09020bbc")
+			(uuid "52594da5-666a-4922-9a56-d7f7ec4912ab")
 		)
 		(fp_line
 			(start 1.6 -0.8)
@@ -3380,7 +3406,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f605c700-3059-4dba-b6e3-37afb13fd83a")
+			(uuid "7b82893b-e1c0-4426-8761-30563cafe447")
 		)
 		(fp_line
 			(start -1.2 -0.8)
@@ -3390,7 +3416,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5b3c2ace-a790-41ab-b61a-de0f07df59a3")
+			(uuid "c0136096-d7b9-4df1-be83-d7186fc2633a")
 		)
 		(fp_line
 			(start -1.6 0.8)
@@ -3400,7 +3426,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3c271e41-e6c5-46f8-a5a5-e88930e02e0e")
+			(uuid "0d79fef8-4131-44e2-9835-098ac667463f")
 		)
 		(fp_line
 			(start -1.6 -0.4)
@@ -3410,7 +3436,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "86beec1e-7db2-4fe2-a0c7-3a03eb44d3dd")
+			(uuid "92f92d4e-7a19-408c-afca-4b2b2db9756f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
@@ -7152,6 +7178,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "ERJ-P06J122V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40d180d5-ecf8-44b8-8862-8823f85aac5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fd3facd-95b7-4d45-9eec-8bff7e70a223")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
