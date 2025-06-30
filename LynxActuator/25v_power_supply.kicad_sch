@@ -513,19 +513,6 @@
 		)
 		(uuid "a00c1061-21d9-40ec-8125-9e3b35a032e1")
 	)
-	(text "Mystery Part"
-		(exclude_from_sim no)
-		(at 82.804 65.2385 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 107 0 255 1)
-			)
-		)
-		(uuid "ce644b2d-51e1-422a-8317-ceb0c52217c0")
-	)
 	(junction
 		(at 92.71 78.7005)
 		(diameter 0)
@@ -8633,20 +8620,19 @@
 		(dnp no)
 		(uuid "ca62a7f1-42ca-4d57-8cc2-1d0de5e7dc19")
 		(property "Reference" "TB4"
-			(at 82.296 67.5245 0)
+			(at 82.55 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PTTB_2,5"
+		(property "Value" "277-17721-ND"
 			(at 82.296 66.5085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8658,7 +8644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/multi-level-terminal-block-pttb-25-3210567"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/2908262/9448966?gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlho9EFuX5hIKj-tWfql-IRh7&gclid=Cj0KCQjwjdTCBhCLARIsAEu8bpJGTFnnMFEty_f8fJ23Np9g4PNZFmSv_RjYYWPvjP4daSlmclphF3EaAkU8EALw_wcB&gclsrc=aw.ds"
 			(at 82.55 72.3505 0)
 			(effects
 				(font

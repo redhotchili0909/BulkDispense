@@ -775,17 +775,6 @@
 		)
 		(uuid "00511359-84c4-4c4a-bbaa-4a8ed45592a0")
 	)
-	(hierarchical_label "+24V_(LYNX_OUTBOUND)"
-		(shape input)
-		(at 43.18 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0c7b73fe-bed9-426f-8506-513fd48d5348")
-	)
 	(hierarchical_label "+24V_(CC)"
 		(shape input)
 		(at 43.18 81.28 180)
@@ -797,16 +786,16 @@
 		)
 		(uuid "0cfefc92-4626-48eb-8330-8e3c4f95650f")
 	)
-	(hierarchical_label "+24V_(ST)"
+	(hierarchical_label "-24V_(LYNX_OUTBOUND)"
 		(shape input)
-		(at 43.18 88.9 180)
+		(at 116.84 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "290d23bf-f58f-40bd-b96b-9ac7af133b87")
+		(uuid "2267fcc0-7b8d-49ad-8a13-c597a2b20067")
 	)
 	(hierarchical_label "-24V"
 		(shape input)
@@ -818,17 +807,6 @@
 			(justify right)
 		)
 		(uuid "2d478571-f54f-4b9a-a205-7057d45803af")
-	)
-	(hierarchical_label "-24V_(LYNX_OUTBOUND)"
-		(shape input)
-		(at 116.84 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "492fb757-1bf2-40d2-b339-e89d6bc54af9")
 	)
 	(hierarchical_label "-24V_(CC)"
 		(shape input)
@@ -863,17 +841,6 @@
 		)
 		(uuid "77415592-c04b-42d3-918d-fa5a678d8f4c")
 	)
-	(hierarchical_label "+24V_(E-STOP)"
-		(shape input)
-		(at 43.18 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "80baf55e-eb8d-44a1-8065-73f41776a85b")
-	)
 	(hierarchical_label "-24V_(CT)"
 		(shape input)
 		(at 116.84 76.2 180)
@@ -885,6 +852,28 @@
 		)
 		(uuid "94c9670d-f3d5-4e6c-b72d-36563a6073b1")
 	)
+	(hierarchical_label "+24V_(E-STOP)"
+		(shape input)
+		(at 43.18 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98f19922-9ca6-4d69-9d9c-234f0dde6303")
+	)
+	(hierarchical_label "+24V_(LYNX_OUTBOUND)"
+		(shape input)
+		(at 43.18 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bad7ddcd-be76-4b66-918d-d5cfc19ce12c")
+	)
 	(hierarchical_label "+24V_(PH)"
 		(shape input)
 		(at 43.18 77.47 180)
@@ -895,17 +884,6 @@
 			(justify right)
 		)
 		(uuid "bbb85638-7869-43c0-81a2-c4b28831cd72")
-	)
-	(hierarchical_label "-24V_(ST)"
-		(shape input)
-		(at 116.84 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d3403c30-0b71-4689-a0fa-a985b2c73809")
 	)
 	(hierarchical_label "-24V_(CCIO)"
 		(shape input)
@@ -952,7 +930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/3273110/7596951"
 			(at 132.08 88.9 0)
 			(effects
 				(font
@@ -1061,7 +1039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/3273110/7596951"
 			(at 58.42 92.71 0)
 			(effects
 				(font

@@ -5,213 +5,6 @@
 	(uuid "bc23df70-a06e-4999-9f36-6d03b2c8ece9")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Socket"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016)
@@ -1764,7 +1557,7 @@
 	)
 	(text "PCV_OUT"
 		(exclude_from_sim no)
-		(at 154.94 77.724 0)
+		(at 154.94 76.454 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -1925,7 +1718,7 @@
 	)
 	(text "PCV_IN"
 		(exclude_from_sim no)
-		(at 155.194 75.438 0)
+		(at 155.194 74.168 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2158,7 +1951,7 @@
 	)
 	(text "PS"
 		(exclude_from_sim no)
-		(at 155.702 73.152 0)
+		(at 155.702 71.882 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -2553,15 +2346,23 @@
 		(at 113.03 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c64775a6-fb32-493b-a350-fa15699b1e24")
+		(uuid "5fd9de6a-9dc1-49cc-8424-86ec8c31e467")
 	)
 	(no_connect
-		(at 111.76 162.56)
-		(uuid "1801d939-978a-4e3d-993a-7cb894492b8d")
+		(at 166.37 78.74)
+		(uuid "3f5aae35-f9af-460a-924b-191153357ee5")
+	)
+	(no_connect
+		(at 114.3 160.02)
+		(uuid "693aaaa3-baab-4476-9027-682864071803")
 	)
 	(no_connect
 		(at 208.28 100.33)
 		(uuid "c7316624-7c08-4c8c-bfb7-c05e49a81251")
+	)
+	(no_connect
+		(at 114.3 165.1)
+		(uuid "d8342100-6e3c-4c85-a8fd-ea93dafae603")
 	)
 	(wire
 		(pts
@@ -2745,16 +2546,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 72.39) (xy 166.37 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a7bc819-a926-4b9b-8fe5-81e8575ac2aa")
-	)
-	(wire
-		(pts
 			(xy 166.37 107.95) (xy 167.64 107.95)
 		)
 		(stroke
@@ -2792,16 +2583,6 @@
 			(type default)
 		)
 		(uuid "345ea541-4ed3-4f28-8f7f-369a3c9e54ce")
-	)
-	(wire
-		(pts
-			(xy 113.03 156.21) (xy 113.03 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "377c171a-76ca-44f6-9c1b-301f5936b0fb")
 	)
 	(wire
 		(pts
@@ -2865,16 +2646,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 157.48) (xy 114.3 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4240298a-86af-4952-ac00-773bc9f3cb93")
-	)
-	(wire
-		(pts
 			(xy 55.88 40.64) (xy 55.88 41.91)
 		)
 		(stroke
@@ -2895,16 +2666,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 160.02) (xy 114.3 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46861c5d-faa8-42cd-a644-1327b974ef4e")
-	)
-	(wire
-		(pts
 			(xy 200.66 59.69) (xy 201.93 59.69)
 		)
 		(stroke
@@ -2922,16 +2683,6 @@
 			(type default)
 		)
 		(uuid "4a057195-1937-4342-bd4e-16ccfe33fa9e")
-	)
-	(wire
-		(pts
-			(xy 111.76 162.56) (xy 114.3 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a5600ee-feb8-4b50-906c-1dd7df2c3349")
 	)
 	(wire
 		(pts
@@ -3095,6 +2846,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 157.48) (xy 113.03 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df12219-69e1-4c8f-a0f4-5e340f152190")
+	)
+	(wire
+		(pts
 			(xy 243.84 71.12) (xy 245.11 71.12)
 		)
 		(stroke
@@ -3112,6 +2873,16 @@
 			(type default)
 		)
 		(uuid "73caf0bf-470e-4d47-861b-c1c2c44b1358")
+	)
+	(wire
+		(pts
+			(xy 163.83 73.66) (xy 166.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b738a9-20dc-48db-b943-6c85cc8814d3")
 	)
 	(wire
 		(pts
@@ -3145,6 +2916,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 71.12) (xy 166.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf03353-4377-47fd-b538-72fa985e2d27")
+	)
+	(wire
+		(pts
 			(xy 63.5 85.09) (xy 64.77 85.09)
 		)
 		(stroke
@@ -3162,6 +2943,16 @@
 			(type default)
 		)
 		(uuid "807488a0-1eb2-451a-b2e1-e4ead38ec1cb")
+	)
+	(wire
+		(pts
+			(xy 113.03 157.48) (xy 114.3 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837c78e0-b154-46d3-bc8c-4c9cdd099596")
 	)
 	(wire
 		(pts
@@ -3345,6 +3136,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 162.56) (xy 114.3 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab242d1b-ccca-4144-8960-ee861eeae6ef")
+	)
+	(wire
+		(pts
 			(xy 77.47 160.02) (xy 78.74 160.02)
 		)
 		(stroke
@@ -3372,6 +3173,16 @@
 			(type default)
 		)
 		(uuid "aebc6768-b55d-4eb0-a66f-c5da60567cdd")
+	)
+	(wire
+		(pts
+			(xy 163.83 76.2) (xy 166.37 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0931ab4-2e73-49c6-a560-07e4490ce5cc")
 	)
 	(wire
 		(pts
@@ -3505,16 +3316,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 74.93) (xy 166.37 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6bec7da-408e-4f8d-b7ea-3cc700c95f9f")
-	)
-	(wire
-		(pts
 			(xy 200.66 71.12) (xy 201.93 71.12)
 		)
 		(stroke
@@ -3522,6 +3323,16 @@
 			(type default)
 		)
 		(uuid "c77f6d2e-ec92-4f7c-b7e2-d16ac0e7325d")
+	)
+	(wire
+		(pts
+			(xy 113.03 156.21) (xy 113.03 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8049461-fc66-42e1-876e-c0c52d2a8e37")
 	)
 	(wire
 		(pts
@@ -3785,16 +3596,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 77.47) (xy 166.37 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f18d7e80-ba30-41ca-88a4-2c1585c61da5")
-	)
-	(wire
-		(pts
 			(xy 55.88 44.45) (xy 55.88 45.72)
 		)
 		(stroke
@@ -3865,16 +3666,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 157.48) (xy 113.03 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f71aea7c-47d1-4b1d-a640-12fa686c4ea2")
-	)
-	(wire
-		(pts
 			(xy 219.71 68.58) (xy 220.98 68.58)
 		)
 		(stroke
@@ -3925,7 +3716,7 @@
 	)
 	(hierarchical_label "AI12"
 		(shape input)
-		(at 163.83 72.39 180)
+		(at 163.83 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4024,7 +3815,7 @@
 	)
 	(hierarchical_label "AI13"
 		(shape input)
-		(at 163.83 74.93 180)
+		(at 163.83 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4308,17 +4099,6 @@
 		)
 		(uuid "39dd3395-f372-4d68-9cde-827f695d3870")
 	)
-	(hierarchical_label "R6_OUT"
-		(shape input)
-		(at 110.49 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3b25621c-6b2c-43b3-9d1d-cb4be9e56985")
-	)
 	(hierarchical_label "R3_IN"
 		(shape input)
 		(at 166.37 110.49 180)
@@ -4387,7 +4167,7 @@
 	)
 	(hierarchical_label "AO0"
 		(shape input)
-		(at 163.83 77.47 180)
+		(at 163.83 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4593,17 +4373,6 @@
 			(justify right)
 		)
 		(uuid "779adffa-e8f4-4642-8478-aaa39b19a4db")
-	)
-	(hierarchical_label "R6_IN"
-		(shape input)
-		(at 110.49 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "798dca9a-9b9e-420f-a44a-a4cc5e532168")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -5056,6 +4825,17 @@
 		)
 		(uuid "c2a8c475-ece3-4afc-925a-8841b9a3cf46")
 	)
+	(hierarchical_label "R6_OUT"
+		(shape input)
+		(at 111.76 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3e4619a-bb13-4255-8241-23eb86c5691d")
+	)
 	(hierarchical_label "DO5"
 		(shape input)
 		(at 63.5 107.95 180)
@@ -5231,6 +5011,17 @@
 			(justify right)
 		)
 		(uuid "e9d0a984-a3f1-4878-9457-919ba4927eb9")
+	)
+	(hierarchical_label "R6_IN"
+		(shape input)
+		(at 111.76 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea071cdd-bc84-4b40-a612-a446d7063a0d")
 	)
 	(hierarchical_label "24V"
 		(shape input)
@@ -5866,72 +5657,6 @@
 			(project "MAXIExpansionBoard"
 				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
 					(reference "J24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 113.03 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d4a2cdc-b360-43f1-a50e-599597a7691d")
-		(property "Reference" "#PWR03"
-			(at 113.03 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 113.03 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 113.03 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb5a8911-d60c-4844-830c-8097fe827ca1")
-		)
-		(instances
-			(project "MAXIExpansionBoard"
-				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7030,97 +6755,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 119.38 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7493abdf-df19-4052-a366-e2db8f5856ed")
-		(property "Reference" "J8"
-			(at 120.65 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fan PWR"
-			(at 120.65 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PartsLibrary:CONN_37203-62A3-003PL_3MM"
-			(at 119.38 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37203-62A3-003PL/1642666"
-			(at 119.38 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN RCPT 3POS 0.079 GOLD PCB"
-			(at 119.38 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "37203-62A3-003PL"
-			(at 119.38 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "3M"
-			(at 119.38 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8ba87f8f-15e4-45ca-b1dd-7f352ce23c0f")
-		)
-		(pin "1"
-			(uuid "2bd76fef-e9a4-4b00-a929-3440ec3b466f")
-		)
-		(pin "2"
-			(uuid "862ff034-48c5-460f-bd52-0d723712f1b3")
-		)
-		(instances
-			(project "MAXIExpansionBoard"
-				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 207.01 54.61 0)
 		(unit 1)
@@ -7280,6 +6914,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 119.38 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87f043e9-0b65-4794-87a9-c9b05767fef6")
+		(property "Reference" "J8"
+			(at 120.65 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan PWR"
+			(at 120.65 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PartsLibrary:CONN_37204-62A3-004PL_3MM"
+			(at 119.38 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
+			(at 119.38 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 119.38 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 119.38 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
+			(at 119.38 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c50493d-76f4-4611-ab82-8008ec21485a")
+		)
+		(pin "3"
+			(uuid "42d949c4-885b-43af-a8cb-c95bf2ecfd73")
+		)
+		(pin "2"
+			(uuid "201fdcf3-57f9-4138-b3ef-e43c0a256292")
+		)
+		(pin "4"
+			(uuid "e391b5eb-4596-4c76-969e-93f7bd91425c")
+		)
+		(instances
+			(project "MAXIExpansionBoard"
+				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x12_Socket")
 		(at 97.79 97.79 0)
 		(unit 1)
@@ -7391,6 +7118,72 @@
 			(project "MAXIExpansionBoard"
 				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 113.03 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c085c4e-8a43-4344-904b-d961a0a9eefd")
+		(property "Reference" "#PWR04"
+			(at 113.03 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 113.03 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 113.03 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "203490d0-1f8a-48e6-8c41-93974bbd0651")
+		)
+		(instances
+			(project "MAXIExpansionBoard"
+				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8210,97 +8003,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 171.45 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b47b85f9-5ccf-4f9a-97c1-edf5b544ed88")
-		(property "Reference" "J13"
-			(at 172.72 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PS/PCV"
-			(at 172.72 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PartsLibrary:CONN_37203-62A3-003PL_3MM"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37203-62A3-003PL/1642666"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "37203-62A3-003PL"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "3M"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8ffe5382-027c-4215-86dd-3144f5dfc3f1")
-		)
-		(pin "1"
-			(uuid "ae7e73a4-109e-4e91-b18e-0452140c67b2")
-		)
-		(pin "2"
-			(uuid "439d33de-fb3d-439c-a203-1c364ebbb9ea")
-		)
-		(instances
-			(project "MAXIExpansionBoard"
-				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 121.92 186.69 0)
 		(unit 1)
@@ -8638,6 +8340,99 @@
 			(project "MAXIExpansionBoard"
 				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 171.45 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d82ccb4a-ab85-4218-b643-3a895b693c06")
+		(property "Reference" "J13"
+			(at 172.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PS/PCV"
+			(at 172.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PartsLibrary:CONN_37204-62A3-004PL_3MM"
+			(at 171.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/3m/37204-62A3-004PL/1642670?gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlgST8MM7teC1_XRzEHPwC9TK&gclid=CjwKCAjwgb_CBhBMEiwA0p3oONiHu6nwJTm_ZwqulepAmgPW2KMjOTu2fKjs93rH9sOuJqpPoBx-0hoCrs0QAvD_BwE&gclsrc=aw.ds"
+			(at 171.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN RCPT 4POS 0.079 GOLD PCB"
+			(at 171.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "37204-62A3-004PL"
+			(at 171.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3M"
+			(at 171.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10251db6-007b-46f1-b9d2-392e5ad190db")
+		)
+		(pin "3"
+			(uuid "28338a9d-2231-4d29-8a23-51e0b6414110")
+		)
+		(pin "2"
+			(uuid "0ca3cd8c-1dbb-47a1-a8ea-9516d2d0584a")
+		)
+		(pin "4"
+			(uuid "af45c9e4-dbe7-4c96-967e-07d426d8f26e")
+		)
+		(instances
+			(project "MAXIExpansionBoard"
+				(path "/bc23df70-a06e-4999-9f36-6d03b2c8ece9"
+					(reference "J13")
 					(unit 1)
 				)
 			)
