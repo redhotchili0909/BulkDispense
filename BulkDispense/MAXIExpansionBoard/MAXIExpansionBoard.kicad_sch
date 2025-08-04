@@ -2823,16 +2823,20 @@
 		(uuid "02795d63-13b3-4ca1-a33c-dd77cadb76cd")
 	)
 	(no_connect
+		(at 125.73 109.22)
+		(uuid "15d27c2a-decc-459b-bf6c-2771f6bb1a43")
+	)
+	(no_connect
 		(at 43.18 110.49)
 		(uuid "21d3778c-6660-4e61-927b-3a56a95bb383")
 	)
 	(no_connect
-		(at 166.37 78.74)
-		(uuid "3f5aae35-f9af-460a-924b-191153357ee5")
+		(at 125.73 111.76)
+		(uuid "29cfcd2a-41c6-48fb-a2db-657b24abd02f")
 	)
 	(no_connect
-		(at 43.18 113.03)
-		(uuid "6872e654-ee67-4c62-83aa-e5fe61d38ddb")
+		(at 166.37 78.74)
+		(uuid "3f5aae35-f9af-460a-924b-191153357ee5")
 	)
 	(no_connect
 		(at 245.11 95.25)
@@ -2853,6 +2857,10 @@
 	(no_connect
 		(at 114.3 165.1)
 		(uuid "d8342100-6e3c-4c85-a8fd-ea93dafae603")
+	)
+	(no_connect
+		(at 125.73 114.3)
+		(uuid "d95a46b0-5978-4da3-9bfb-c0e7541301f0")
 	)
 	(no_connect
 		(at 43.18 95.25)
@@ -4528,16 +4536,6 @@
 		)
 		(uuid "20c30dcb-4737-4093-bad9-94e3d4d9e7b1")
 	)
-	(label "LDS"
-		(at 125.73 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "23f20890-60fa-4c1a-8830-065c2e6cef9c")
-	)
 	(label "FS3-3"
 		(at 83.82 111.76 180)
 		(effects
@@ -4567,16 +4565,6 @@
 			(justify right bottom)
 		)
 		(uuid "25567790-0d93-460d-b4ad-681a875826aa")
-	)
-	(label "LDS-5V"
-		(at 125.73 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2633b01c-9553-4c9c-a3ff-ec48d6b89913")
 	)
 	(label "FS1-3"
 		(at 200.66 57.15 180)
@@ -4817,16 +4805,6 @@
 			(justify right bottom)
 		)
 		(uuid "5923d256-a3bb-4bb9-97c9-748f00465259")
-	)
-	(label "LDS-GND"
-		(at 125.73 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "592ce265-d9ce-4268-a627-167f8d4e1f31")
 	)
 	(label "AI0"
 		(at 44.45 157.48 180)
@@ -5687,6 +5665,16 @@
 			(justify right bottom)
 		)
 		(uuid "f261dd77-f108-416b-b6fb-b55ec311e405")
+	)
+	(label "LDS"
+		(at 43.18 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f28e7ff5-3cef-4065-8531-91062c8f40c6")
 	)
 	(label "AI2"
 		(at 44.45 172.72 180)

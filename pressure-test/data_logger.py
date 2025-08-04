@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # === CONFIGURATION ===
 PORT = 'COM6'  # Adjust this to your actual port
 BAUD = 115200
-RECORD_DURATION = 240  # seconds
+RECORD_DURATION = 150  # seconds
 VAlVE_ON_DURATION = 15  # seconds
 OUTPUT_FOLDER = './log'
 PRESSURE_UNIT = "mmH₂O"
@@ -38,7 +38,7 @@ TEMP_UNIT = "°C"
 #     "temperature": "°C"
 # }
 
-SENSOR_NAME = "HSCDRRN001ND2A3"
+SENSOR_NAME = "SSCDRRN002ND2A3"
 SENSOR_UNITS = {
     "pressure": "mmH₂O",
     "temperature": "°C"
