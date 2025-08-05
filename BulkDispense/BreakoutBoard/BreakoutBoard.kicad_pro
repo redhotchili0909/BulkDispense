@@ -43,9 +43,9 @@
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_size_h": 0.5,
+        "silk_text_size_v": 0.5,
+        "silk_text_thickness": 0.0625,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
@@ -188,7 +188,12 @@
       ],
       "track_widths": [
         0.0,
-        0.635
+        0.2,
+        0.254,
+        0.381,
+        0.508,
+        0.635,
+        0.889
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
