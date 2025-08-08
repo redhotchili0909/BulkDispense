@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PartsLibrary")(type "KiCad")(uri "C:/Users/cpark/OneDrive - Moderna/ModernaProjects/BulkDispense/BreakoutBoard/PartsLibrary.pretty")(options "")(descr ""))
+)
