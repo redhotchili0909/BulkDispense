@@ -10129,7 +10129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/grm188r71c104ka01d/587060"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702826"
 			(at 190.5 34.29 0)
 			(effects
 				(font
@@ -10401,7 +10401,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 138.43 198.12 0)
 			(effects
 				(font
@@ -11487,7 +11487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/grm188r71c104ka01d/587060"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702826"
 			(at 327.66 34.29 0)
 			(effects
 				(font
@@ -12239,7 +12239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 143.51 255.778 90)
 			(effects
 				(font
@@ -13234,7 +13234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 301.9552 118.11 0)
 			(effects
 				(font
@@ -13739,7 +13739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 143.51 231.648 90)
 			(effects
 				(font
@@ -14156,7 +14156,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 138.43 246.38 0)
 			(effects
 				(font
@@ -15845,7 +15845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 138.43 222.25 0)
 			(effects
 				(font
@@ -16074,7 +16074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 143.51 207.518 90)
 			(effects
 				(font
